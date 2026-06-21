@@ -83,7 +83,7 @@ Techniques applied:
 
 ### Result
 
-- Accuracy improved from **~65% → ~75%**
+- Accuracy improved from **~72% → ~77%**
 
 This demonstrated that data augmentation helped the model learn more robust features and reduced overfitting.
 
@@ -136,8 +136,8 @@ MobileNetV2 achieved the best classification performance among all tested models
 
 | Model | Data Augmentation | Accuracy |
 |---|---|---|
-| Baseline CNN | ❌ No | ~65% |
-| Baseline CNN | ✅ Yes | ~75% |
+| Baseline CNN | ❌ No | ~72% |
+| Baseline CNN | ✅ Yes | ~77% |
 | Fine-Tuned VGG16 | ✅ Yes | ~87% |
 | Fine-Tuned MobileNetV2 | ✅ Yes | 90%+ |
 
